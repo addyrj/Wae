@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    background: #181818;
+    font-size: 1rem;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+  }
+
+
+.ant-table-wrapper{
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+.ql-editor {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ql-font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
