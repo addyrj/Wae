@@ -48,7 +48,7 @@ const Home = () => {
             massa vitae auctor mi massa. Sodales libero viverra cursus sed duis
             luctus nulla. In malesuada vulputate pharetra ipsum orci.
           </h3>
-          <span>Donate</span>
+          <button>Donate</button>
         </div>
       </div>
       <div className="main-result">
@@ -164,17 +164,37 @@ const Home = () => {
 </div>
 <hr />
 <div className="rupees">
+<button className="btz">₹2500</button>
 <button className="btz">₹5000</button>
-<button className="btz">₹5000</button>
-<button className="btz">₹5000</button>
-
+<button className="btz">₹6000</button>
 </div>
+<div className="rs">
+<input type="text" placeholder="₹" />
+</div>
+<div className="rs1">
+  <select className="personSelect">
+    <option value="">Select a person</option>
+    <option value="person1">Person 1</option>
+    <option value="person2">Person 2</option>
+    <option value="person3">Person 3</option> 
+
+  </select>
+</div>
+<div className="rs2">
+<input type="text" placeholder="Leave a Comment" />
+</div>
+<div className="rs3">
+<button >Donate</button>
+</div>
+
+
+
 
    
     </div>
         </div>
       </div>
-      <footer className="main">
+      <footer className="main-footer">
       <nav className="main-nav">
           <div className="mainlogo">
             <img src={logo} alt="" />
@@ -195,6 +215,7 @@ const Home = () => {
           <FaInstagram />
           </div>
         </nav>
+        <p>CompanyName @ 202X. All rights reserved.</p>
       </footer>
     </>
   );
