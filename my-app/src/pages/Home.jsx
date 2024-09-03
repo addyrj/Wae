@@ -1,6 +1,6 @@
 import "./home.scss";
 // import React, { useState } from 'react';
-// import { FaRupeeSign } from 'react-icons/fa'; 
+// import { FaRupeeSign } from 'react-icons/fa';
 import {
   logo,
   main,
@@ -16,9 +16,7 @@ import { TfiTwitter } from "react-icons/tfi";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
-
 const Home = () => {
-
   return (
     <>
       <header className="header">
@@ -147,55 +145,55 @@ const Home = () => {
             <br /> Commodo in viverra nunc, ullamcorper ut. Non, amet, aliquet
             scelerisque nullam sagittis, pulvinar.
           </p>
-          <div className="input">
+          <div className="subscribe">
+            <div className="email">
+
             <input
               type="email"
               placeholder="Enter your email to get the latest news..."
             />
+            </div>
             <button type="submit">Subscribe</button>
           </div>
         </div>
         <div className="subscribe-bottom">
-        <div className="donation">
-      <h1>Your Donation will <br />make a difference</h1>
-      <div className="oneTime">
-  <button className="btn">One-time</button>
-  <button className="btn">Monthly</button>
-</div>
-<hr />
-<div className="rupees">
-<button className="btz">₹2500</button>
-<button className="btz">₹5000</button>
-<button className="btz">₹6000</button>
-</div>
-<div className="rs">
-<input type="text" placeholder="₹" />
-</div>
-<div className="rs1">
-  <select className="personSelect">
-    <option value="">Select a person</option>
-    <option value="person1">Person 1</option>
-    <option value="person2">Person 2</option>
-    <option value="person3">Person 3</option> 
-
-  </select>
-</div>
-<div className="rs2">
-<input type="text" placeholder="Leave a Comment" />
-</div>
-<div className="rs3">
-<button >Donate</button>
-</div>
-
-
-
-
-   
-    </div>
+          <div className="donation">
+            <h1>
+              Your Donation will <br />
+              make a difference
+            </h1>
+            <div className="oneTime">
+              <button className="btn">One-time</button>
+              <button className="btn">Monthly</button>
+            </div>
+            <hr />
+            <div className="rupees">
+              <button className="btz">₹2500</button>
+              <button className="btz">₹5000</button>
+              <button className="btz">₹6000</button>
+            </div>
+            <div className="rs">
+              <input type="text" placeholder="₹" />
+            </div>
+            <div className="rs1">
+              <select className="personSelect">
+                <option value="">Donate to</option>
+                <option value="person1">Person 1</option>
+                <option value="person2">Person 2</option>
+                <option value="person3">Person 3</option>
+              </select>
+            </div>
+            <div className="rs2">
+              <input type="text" placeholder="Leave a Comment" />
+            </div>
+            <div className="rs3">
+              <button>Donate</button>
+            </div>
+          </div>
         </div>
       </div>
       <footer className="main-footer">
-      <nav className="main-nav">
+        <nav className="main-nav">
           <div className="mainlogo">
             <img src={logo} alt="" />
           </div>
@@ -208,11 +206,11 @@ const Home = () => {
             <li>Six</li>
           </div>
           <div className="social">
-          <FaYoutube />
-          <SlSocialFacebook />
-          <TfiTwitter />
-          <FaLinkedinIn />
-          <FaInstagram />
+            <FaYoutube />
+            <SlSocialFacebook />
+            <TfiTwitter />
+            <FaLinkedinIn />
+            <FaInstagram />
           </div>
         </nav>
         <p>CompanyName @ 202X. All rights reserved.</p>
